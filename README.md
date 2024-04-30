@@ -39,7 +39,7 @@ If the 'hello world' data sent by the second terminal has been entered in the fi
 
  * After MQTT is successfully installed and running, then create a username and password for the broker in the terminal
 ```bash
-sudo mosquitto_passwd -c etc/mosquitto/passwd username
+sudo mosquitto_passwd -c /etc/mosquitto/passwd username
 ```
 *Fill in the username field with the username 
 After the syntax above is entered then fill in the password to be created.
